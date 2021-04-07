@@ -1,0 +1,589 @@
+/*main setting*/
+@media screen and (min-width: 582px){
+  html
+  {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 582px){
+  html
+  {
+    font-size: 16px;
+  }
+}
+
+
+
+
+* {
+  margin: 0; /*відступи*/
+  padding: 0;
+  color: #000;
+  scroll-behavior: smooth;
+
+}
+
+body 
+{
+  background: #0d0d0d;
+}
+
+.container 
+{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+/*multiple pages*/
+.page1,
+.page2,
+.page3,
+.page4 
+{
+  width: 100%;
+
+  height: 1125px;
+  color: #fff;
+}
+
+
+
+/*content on first page*/
+.page1 
+{
+
+  background-image: url(background/Newfolder/slice1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+main
+{
+  padding-top: 12rem;
+  display: flex;
+  flex-direction: column;
+ 
+  align-items: center;  
+}
+
+
+.shaman 
+{
+
+
+ height: 13.5rem;
+
+ margin-bottom: 1.5rem;
+}
+
+
+h2 
+{
+  display: flex;
+  justify-content: center;
+  
+  align-items: center;
+
+    border-radius: 2.5rem;
+    width: 22rem;
+    height: 3rem;
+    background: #b7dfdf;
+
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+ 
+
+  animation-name: blink_blue;
+  animation-duration: 2s;
+
+}
+
+.mail_inner
+{
+
+  display: flex;
+  align-items: center;
+  margin-top: 1.2rem;
+}
+
+
+.mail_icon
+{
+  height: 2.5rem;
+}
+
+
+.enter_your_email
+{
+
+    text-align: center;
+  margin-left: 0.3rem;
+
+  
+  font-size: 24px;
+  font-weight: 700;
+
+
+  border-radius: 2.5rem;
+  width: 16.2rem;
+  height: 2.5rem;
+  outline: 0;
+  border: 0;
+
+  animation-name: blink_dblue;
+  background: #95ABB1
+
+}
+
+
+
+
+
+
+
+/*page2*/
+
+.page2 
+{
+
+  background-image: url(background/Newfolder/slice2.png);
+
+  background-repeat: no-repeat;
+   background-position: center;
+  background-size: cover;
+
+}
+
+
+@media screen and (min-width: 430px)
+{
+.container_page2
+{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 4.5rem;
+}
+}
+
+@media screen and (max-width: 430px)
+{
+.container_page2
+{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 1.5rem;
+}
+}
+
+
+
+
+@media screen and (min-width: 1140px)
+{
+  .text_me 
+  {
+    display: flex;
+
+  }
+}
+
+
+
+@media screen and (max-width: 1140px)
+{
+  .text_me 
+  {
+    display: flex;
+     flex-direction: column;
+  }
+}
+
+
+.text{
+flex-direction: column;
+}
+
+
+@media screen and (min-width: 1140px)
+{
+.me
+{
+	
+	height: 15.5rem;
+ 
+	border-radius: 2rem;
+
+  border: 1rem solid white;
+  
+
+}
+}
+
+
+@media screen and (max-width: 1140px)
+{
+.me
+{
+  
+
+
+  margin-left: auto;
+  margin-right: auto;
+  height: 13.5rem;
+  
+  border-radius: 2rem;
+
+  border: 1rem solid white;
+ 
+
+}
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1140px)
+{
+ h4,h5,.h6
+ {
+
+  margin-left: 4rem;
+  display: flex;
+  
+  align-items: center;
+
+
+ 
+  border-radius: 1.5rem;
+ 
+  background: white;
+  opacity: 80%;
+
+
+
+
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+  
+} 
+
+h4
+{
+  
+  justify-content: center;
+  border-bottom-left-radius: 0rem; 
+  border-bottom-right-radius: 0rem;
+  padding: 1rem ;
+}
+}
+
+
+
+
+@media screen and (max-width: 1140px)
+{
+ h4,h5,.h6
+ {
+
+
+  display: flex;
+  
+  align-items: center;
+
+
+ 
+  border-radius: 1.5rem;
+ 
+  background: white;
+  opacity: 80%;
+
+
+
+
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 600;
+  
+} 
+
+h4
+{
+  margin-top: 1rem;
+  justify-content: center;
+  border-bottom-left-radius: 0rem; 
+  border-bottom-right-radius: 0rem;
+  padding: 1rem ;
+}
+}
+
+
+
+
+
+
+h5
+{
+  padding: 1rem ;
+ 
+  border-top-left-radius: 0rem; 
+  border-top-right-radius: 0rem;
+}
+
+
+
+@media screen and (min-width: 1174px)
+{
+.h6
+{
+
+
+  margin-left: auto;
+  margin-right: auto;
+ 
+
+  justify-content: center;
+ 
+
+  height: 1.5rem;
+  width: 18rem;
+ 
+  margin-top: 11rem; 
+  padding: 1rem  ;
+
+  
+
+}
+}
+
+@media screen and (max-width: 1174px)
+{
+.h6
+{
+  margin-left: auto;
+  margin-right: auto;
+
+   display: flex;
+  justify-content: center;
+;
+
+  height: 1.5rem;
+  width: 18rem;
+ 
+  margin-top: 7rem; 
+  padding: 1rem  ;
+
+ 
+
+
+}
+}
+
+
+
+
+
+
+
+
+/*program*/
+.program
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ 
+ 
+  flex-wrap: wrap;
+  margin-top:4rem;
+
+  opacity: 80%;
+
+}
+
+
+
+@media screen and (min-width: 1140px)
+{
+.prog_all
+{
+   height:6rem;
+   margin-right: 1rem;
+   margin-left: 1rem;
+
+  transition: all .3s;
+}
+
+
+
+/*#hover*/
+.prog_all:hover
+{
+ height:7rem;
+}
+}
+
+
+
+
+
+@media screen and (max-width: 1140px)
+{
+.prog_all
+{
+   height:4rem;
+   margin-right: 1rem;
+   margin-left: 1rem;
+
+  transition: all .3s;
+}
+
+
+
+/*#hover*/
+.prog_all:hover
+{
+ height:4.5rem;
+}
+}
+
+
+
+
+
+
+
+
+
+/*page3*/
+
+.page3 
+{
+  background-image: url(background/Newfolder/slice3.png);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+@media screen and (min-width: 1780px)
+{
+  .pictures
+  {
+  display: flex;
+  margin-top: 11.5rem;
+
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+
+}
+}
+
+@media screen and (max-width: 1780px)
+{
+.pictures
+{
+
+  display: flex;
+  
+
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+
+  margin: auto;
+  
+  
+
+
+
+}
+}
+
+@media screen and (max-width: 466px)
+{
+  .pictures
+  {
+   width: 50%;
+  }
+}
+
+
+
+
+@media screen and (min-width: 1145px)
+{
+.pictures_all
+{
+ 
+  width: 20rem;
+  margin-bottom: 1rem;
+  transition: all .6s;
+  
+}
+
+/*#hover*/
+.pictures_all:hover
+{
+width: 21rem;
+}
+}
+
+
+
+@media screen and (max-width: 1145px)
+{
+.pictures_all
+{
+  
+  width: 10rem;
+  margin-bottom: 1rem;
+  transition: all .6s;
+ 
+}
+
+/*#hover*/
+.pictures_all:hover
+{
+width: 12rem;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+::placeholder
+{
+
+  color: #555;
+};
+
