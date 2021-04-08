@@ -34,18 +34,43 @@
   .header-nav{
     flex-direction: row-reverse;
   }
+
+
+  @media screen and (min-width: 404px) {
   .menuBG{
-    position: absolute;
-    top: 0%;
-    right: 0;
-    display: flex;
-    width: 400px;
-    height: 500px;
-    border-radius: 50%;
-    transform: translate(50%,-50%);
-    background-color: #b7dfdf;
-    transition: all .3s ease-in-out;
+      position: absolute;
+      top: 0%;
+      right: 0;
+      display: flex;
+      width: 400px;
+      height: 500px;
+      border-radius: 50%;
+      transform: translate(50%,-50%);
+      background-color: #b7dfdf;
+      transition: all .3s ease-in-out;
+    }
   }
+
+
+
+  @media screen and (max-width: 404px) {
+  .menuBG{
+      position: absolute;
+      top: 0%;
+      right: 0;
+      display: flex;
+      width: 300px;
+      height: 450px;
+      border-radius: 50%;
+      transform: translate(50%,-50%);
+      background-color: #b7dfdf;
+      transition: all .3s ease-in-out;
+    }
+  }
+
+
+
+  
 }
 .nav_link {
   text-decoration: 0;
