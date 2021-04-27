@@ -139,10 +139,11 @@ h2
 
 .mail_inner
 {
-
+  width: 25rem;
   display: flex;
   align-items: center;
   margin-top: 1.2rem;
+  flex-direction: column;
   
 }
 
@@ -156,7 +157,10 @@ h2
 .enter_your_email
 {
 
-    text-align: center;
+
+  transition: all .5s;
+
+  text-align: center;
   margin-left: 0.3rem;
 
   
@@ -170,23 +174,31 @@ h2
   outline: 0;
   border: 0;
 
-  animation-name: blink_dblue;
+ 
   background: #95ABB1
+ 
 
+}
+
+.enter_your_email:focus
+{
+
+  width: 20rem
 }
 
 
 .Submit_button
 {
-  background: none;
+  margin-top: 1rem;
+  background: #95ABB1;
   justify-content: center;
   align-items: center;
   outline: none;
   border:none;
 
-    border-radius: 1.5rem;
-    width: 6rem;
-    height: 2rem;
+    border-radius: 1.25rem;
+    width: 8rem;
+    height: 2.8rem;
     transition: background .5s ease-in-out;
     margin-left: 3px;
 
