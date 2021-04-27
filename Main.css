@@ -40,7 +40,7 @@
 
 body 
 {
-  background: #0d0d0d;
+  background: #000;
 }
 
 .container 
@@ -72,10 +72,21 @@ body
 
 
 /*content on first page*/
+video{
+top: 0;
+width: 100%
+heigth:100%;
+object-fit: cover;
+position: fixed;
+ 
+ z-index: -1;
+}
+
 .page1 
 {
+/*
 
-  background-image: url(background/Newfolder/slice1.png);
+  background-image: url(background/Newfolder/slice2.png);*/
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -85,10 +96,12 @@ body
 main
 {
   padding-top: 12rem;
+  position: relative;
   display: flex;
   flex-direction: column;
  
   align-items: center;  
+  z-index: 100;
 }
 
 
@@ -172,8 +185,8 @@ h2
 .page2 
 {
 
-  background-image: url(background/Newfolder/slice2.png);
-
+ 
+ /* background-image: url(background/Newfolder/slice2.png);*/
   background-repeat: no-repeat;
    background-position: center;
   background-size: cover;
@@ -236,10 +249,10 @@ flex-direction: column;
 {
 .me
 {
-	
-	height: 15.5rem;
+  
+  height: 15.5rem;
  
-	border-radius: 2rem;
+  border-radius: 2rem;
 
   border: 1rem solid white;
   
@@ -490,7 +503,7 @@ h5
 
 .page3 
 {
-  background-image: url(background/Newfolder/slice3.png);
+ /* background-image: url(background/Newfolder/slice3.png);*/
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -600,4 +613,3 @@ width: 12rem;
 
   color: #555;
 };
-
