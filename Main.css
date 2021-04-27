@@ -151,6 +151,7 @@ h2
 .mail_icon
 {
   height: 2.5rem;
+  margin-left: 1rem;
 }
 
 
@@ -161,6 +162,7 @@ h2
   transition: all .5s;
 
   text-align: center;
+  margin-top: 1rem;
   margin-left: 0.3rem;
 
   
@@ -183,13 +185,21 @@ h2
 .enter_your_email:focus
 {
 
-  width: 20rem
+  width: 22rem
 }
 
 
+
+
+
+
+/*button*/
 .Submit_button
 {
+  display: flex;
   margin-top: 1rem;
+
+
   background: #95ABB1;
   justify-content: center;
   align-items: center;
@@ -197,7 +207,7 @@ h2
   border:none;
 
     border-radius: 1.25rem;
-    width: 8rem;
+    width: 10rem;
     height: 2.8rem;
     transition: background .5s ease-in-out;
     margin-left: 3px;
@@ -208,6 +218,18 @@ h2
 {
    background: #b7dfdf;
 }
+
+.send
+{
+  
+  font-size: 22px;
+  font-weight: 900;
+
+
+ 
+  
+}
+
 
 
 /*page2*/
