@@ -187,10 +187,8 @@ h2
     border-radius: 1.5rem;
     width: 6rem;
     height: 3rem;
-   
-
-
-
+    transition: background .5s ease-in-out;
+    margin-left: 3px;
 
 }
 
