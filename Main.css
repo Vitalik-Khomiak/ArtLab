@@ -143,6 +143,7 @@ h2
   display: flex;
   align-items: center;
   margin-top: 1.2rem;
+  
 }
 
 
@@ -175,9 +176,26 @@ h2
 }
 
 
+.Submit_button
+{
+  background-color: none;
+  justify-content: center;
+  align-items: center;
+
+    border-radius: 1.5rem;
+    width: 10rem;
+    height: 3rem;
+   
 
 
 
+
+}
+
+.Submit_button: hover
+{
+   background: #b7dfdf;
+}
 
 
 /*page2*/
