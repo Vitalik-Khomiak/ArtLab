@@ -178,12 +178,14 @@ h2
 
 .Submit_button
 {
-  background-color: none;
+  background: none;
   justify-content: center;
   align-items: center;
+  outline: none;
+  border:none;
 
     border-radius: 1.5rem;
-    width: 10rem;
+    width: 6rem;
     height: 3rem;
    
 
