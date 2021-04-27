@@ -205,7 +205,6 @@ h1 {
   .nav {
     display: flex;
   }
-
   .nav_button,
   .nav_button_end {
     display: flex;
@@ -213,7 +212,6 @@ h1 {
     width: 7.5rem;
     height: 2.25rem;
     background: #b7dfdf;
-
     text-decoration: 0;
     margin: 0 17px;
     justify-content: center;
