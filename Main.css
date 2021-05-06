@@ -78,14 +78,17 @@ width: 100%
 heigth:100%;
 object-fit: cover;
 position: fixed;
+justify-content: center; 
+ margin-left: 50vw; 
+ transform: translate(-50%);
  
  z-index: -1;
 }
 
 .page1 
 {
-/*
 
+/*
   background-image: url(background/Newfolder/slice2.png);*/
   background-repeat: no-repeat;
   background-position: center;
@@ -515,9 +518,12 @@ h5
 /*#hover*/
 .prog_all:hover
 {
- height:7rem;
+  transform: rotate(15deg);
+  height:7rem;
+
 }
 }
+
 
 
 
@@ -555,7 +561,7 @@ h5
 
 .page3 
 {
- /* background-image: url(background/Newfolder/slice3.png);*/
+  /*background-image: url(background/Newfolder/slice3.png);*/
 
   background-repeat: no-repeat;
   background-size: cover;
