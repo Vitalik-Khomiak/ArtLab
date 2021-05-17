@@ -289,7 +289,7 @@ margin-top: 0.3rem ;
   display: flex;
   flex-direction: column;
   height: 100%;
-  padding: 1.5rem;
+  padding: 4.5rem;
   padding-top: 70%;
 }
 
@@ -324,6 +324,7 @@ border-radius: 20px;
 margin-top: 1rem;
 font-size: 1.2rem;
 }
+}
 
 @media screen and (max-width: 702px){
   
@@ -335,20 +336,17 @@ border-spacing: 5px;
 background: #95ABB1;
 border-radius: 20px;
 margin-top: 1rem;
-font-size: 0.7rem;
+font-size: 0.5rem;
 }
 }
-
-
 
 th{
-font-size: 1.2rem;
+font-size: 1rem;
 font-weight: 16.6rem;
 padding: 0.6rem 0.5rem;
 border-bottom: 2px solid #b7dfdf;
-color: black;
+color: #b7dfdf;
 }
-
 tbody tr:nth-child(2) {
 border-bottom: 2px solid #b7dfdf;
 }
